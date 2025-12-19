@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text to Voice Converter"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#263238"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Ready"
+            android:textColor="#2E7D32"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"/>
+
+
+        <!-- Text Input -->
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text here"
+            android:minLines="4"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textColor="#37474F"
+            android:textColorHint="#90A4AE"
+            android:background="#FFFFFF"
+            android:elevation="2dp"/>
+
+        <TextView
+            android:id="@+id/tvCharCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Characters: 0"
+            android:textColor="#607D8B"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"/>
+
+
+        <!-- Language Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Language"
+            android:textColor="#263238"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_bg"
+            android:spinnerMode="dropdown"
+            android:padding="8dp"
+            android:popupBackground="#FFFFFF"
+            android:dropDownWidth="match_parent"/>
+
+        <!-- Pitch Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pitch"
+            android:textColor="#263238"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Pitch SeekBar -->
+        <SeekBar
+            android:id="@+id/seekPitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:thumbTint="#4CAF50"
+            android:progressTint="#81C784"/>
+
+        <!-- Speed Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            android:textColor="#263238"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Speed SeekBar -->
+        <SeekBar
+            android:id="@+id/seekSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:thumbTint="#4CAF50"
+            android:progressTint="#81C784"/>
+
+        <!-- Speak Button -->
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Stop Button -->
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Text"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
