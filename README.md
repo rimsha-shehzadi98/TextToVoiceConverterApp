@@ -23,27 +23,25 @@ This project focuses on accessibility, simplicity, and ease of use.
 
 ## Screenshots
 
-Home Screen  
-![Home Screen](Screenshots/home.jpeg)
+| Home Screen | Language Selection |
+|-------------|------------------|
+| ![Home](Screenshots/home.jpeg) | ![Language](Screenshots/language_dropdown.jpeg) |
 
-Language Selection Dropdown  
-![Language Dropdown](Screenshots/language_dropdown.jpeg)
+| Pitch & Speed | Speaking | Stopped |
+|---------------|---------|---------|
+| ![Pitch](Screenshots/pitch_speed.jpeg) | ![Speaking](Screenshots/speaking.jpeg) | ![Stopped](Screenshots/stopped.jpeg) |
 
-Pitch and Speed Controls  
-![Pitch and Speed](Screenshots/pitch_speed.jpeg)
 
-Speaking Status  
-![Speaking](Screenshots/speaking.jpeg)
-
-Stopped Status  
-![Stopped](Screenshots/stopped.jpeg)
 
 
 ## Demo Video
 
-A short demo video of the application is available below:
+A short demo of the application:
 
-[Click here to watch demo video](DemoVideo/app_demo.mp4)
+[Download & Watch Demo Video](DemoVideo/app_demo.mp4)
+
+
+
 
 ---
 
