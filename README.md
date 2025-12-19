@@ -31,7 +31,6 @@ This project focuses on **accessibility, simplicity, and ease of use**. 🚀
 |---------------|---------|---------|
 | <img src="Screenshots/pitch_speed.jpeg" width="300"/> | <img src="Screenshots/speaking.jpeg" width="300"/> | <img src="Screenshots/stopped.jpeg" width="300"/> |
 
-> ✅ All screenshots are resized to the same width for **uniform appearance**.
 
 ---
 
