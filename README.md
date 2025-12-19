@@ -36,12 +36,8 @@ This project focuses on accessibility, simplicity, and ease of use.
 
 ## Demo Video
 
-A short demo of the application:
-
-<video width="400" controls>
-  <source src="https://rimsha-shehzadi98.github.io/TextToVoiceConverterApp/DemoVideo/app_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+A short demo video of the application is available below: 
+[Click here to watch demo video](DemoVideo/app_demo.mp4)
 
 
 ---
