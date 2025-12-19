@@ -1,60 +1,62 @@
-# Text to Voice Converter App
+# 🎤 Text to Voice Converter App
 
-Text to Voice Converter is an Android application developed using Kotlin.  
-The app converts user-entered text into spoken voice using Android’s built-in TextToSpeech (TTS) API.
+Convert text into spoken voice effortlessly with this **Android Kotlin app**!  
+The app uses Android’s built-in **TextToSpeech (TTS) API** for instant voice output.
 
-This project focuses on accessibility, simplicity, and ease of use.
-
----
-
-## Features
-
-- Convert text into voice
-- Supports more than 15 languages
-- Language selection using dropdown menu
-- Pitch control using SeekBar
-- Speed control using SeekBar
-- Real-time status display (Ready, Speaking, Stopped)
-- Character counter for entered text
-- Clear text button
-- Simple and user-friendly interface
+This project focuses on **accessibility, simplicity, and ease of use**. 🚀
 
 ---
 
-## Screenshots
+## ✨ Features
+
+- 📝 Convert text into voice
+- 🌐 Supports **15+ languages**
+- 🔽 Language selection using **dropdown menu**
+- 🎚 Pitch control using **SeekBar**
+- ⏩ Speed control using **SeekBar**
+- 🔊 Real-time status display (**Ready, Speaking, Stopped**)
+- 🔢 Character counter for entered text
+- ❌ Clear text button
+- 🖥 Simple and user-friendly interface
+
+---
+
+## 📸 Screenshots
 
 | Home Screen | Language Selection |
 |-------------|------------------|
-| ![Home](Screenshots/home.jpeg) | ![Language](Screenshots/language_dropdown.jpeg) |
+| <img src="Screenshots/home.jpeg" width="300"/> | <img src="Screenshots/language_dropdown.jpeg" width="300"/> |
 
 | Pitch & Speed | Speaking | Stopped |
 |---------------|---------|---------|
-| ![Pitch](Screenshots/pitch_speed.jpeg) | ![Speaking](Screenshots/speaking.jpeg) | ![Stopped](Screenshots/stopped.jpeg) |
+| <img src="Screenshots/pitch_speed.jpeg" width="300"/> | <img src="Screenshots/speaking.jpeg" width="300"/> | <img src="Screenshots/stopped.jpeg" width="300"/> |
 
+> ✅ All screenshots are resized to the same width for **uniform appearance**.
 
+---
 
-
-## Demo Video
+## ▶️ Demo Video
 
 A short demo video of the application is available below: 
 [Click here to watch demo video](DemoVideo/app_demo.mp4)
 
 
+
 ---
 
-## How the App Works
+## ⚙️ How the App Works
 
 1. User enters text into the input field
 2. User selects a language from the dropdown list
 3. Pitch and speed are adjusted using sliders
-4. On pressing the Speak button, text is converted to speech
-5. Stop button stops the speech output
-6. Clear button resets the input field
+4. Press **Speak** → text is converted to speech
+5. **Stop** button stops the speech output
+6. **Clear** button resets the input field
 7. Status text updates according to the app state
 
 ---
 
-## Tools and Technologies Used
+## 🛠 Tools and Technologies Used
 
 - Android Studio
 - Kotlin
@@ -63,7 +65,7 @@ A short demo video of the application is available below:
 
 ---
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 1. Clone or download the repository
 2. Open the project in Android Studio
@@ -72,14 +74,15 @@ A short demo video of the application is available below:
 
 ---
 
-## Author
+## 👩‍💻 Author
 
-Rimsha Shehzadi  
+**Rimsha Shehzadi**  
 Software Engineering  
 Government College University, Faisalabad, Pakistan
 
 ---
 
-## Note
+## ⚠️ Note
 
-This project is developed for educational and learning purposes.
+This project is developed for **educational and learning purposes**.  
+
